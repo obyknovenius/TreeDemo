@@ -1,0 +1,57 @@
+{
+	"class": "folder",
+	"name": "C:",
+	"children": [
+		{
+			"class": "folder",
+			"name": "Windows",
+			"children": [
+				{
+					"class": "folder",
+					"name": "System32",
+					"children": []
+				},
+				{
+					"class": "file",
+					"name": "Cocoa pods sucks!"
+				}
+            ]
+		},
+		{
+			"class": "folder",
+			"name": "Program Files",
+			"children": []
+		},
+		{
+			"class": "folder",
+			"name": "Users",
+			"children": [
+				{
+					"class": "folder",
+					"name": "All Users",
+					"children": []
+				},
+				{
+					"class": "folder",
+					"name": "Administrator",
+					"children": []
+				},
+				{
+					"class": "folder",
+					"name": "Vitaly",
+					"children": [
+						{
+							"class": "file",
+							"name": "I love ebf.jpg"
+						},
+						{
+							"class": "file",
+							"name": "Russian-German dictionary.dict",
+							"color": "red"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		B7DCF46B1D128F1500ECDA97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DCF46A1D128F1500ECDA97 /* main.m */; };
 		B7DCF46E1D128F1500ECDA97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DCF46D1D128F1500ECDA97 /* AppDelegate.m */; };
-		B7DCF4711D128F1500ECDA97 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DCF4701D128F1500ECDA97 /* MasterViewController.m */; };
-		B7DCF4741D128F1500ECDA97 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DCF4731D128F1500ECDA97 /* DetailViewController.m */; };
 		B7DCF4771D128F1600ECDA97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7DCF4751D128F1600ECDA97 /* Main.storyboard */; };
 		B7DCF4791D128F1600ECDA97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7DCF4781D128F1600ECDA97 /* Assets.xcassets */; };
 		B7DCF47C1D128F1600ECDA97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7DCF47A1D128F1600ECDA97 /* LaunchScreen.storyboard */; };
+		B7DCF4881D128FF300ECDA97 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DCF4851D128FF300ECDA97 /* DetailViewController.m */; };
+		B7DCF4891D128FF300ECDA97 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DCF4871D128FF300ECDA97 /* MasterViewController.m */; };
+		B7DCF4981D1293D200ECDA97 /* EBFJSONUnarchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DCF48D1D1293D200ECDA97 /* EBFJSONUnarchiver.m */; };
+		B7DCF4991D1293D200ECDA97 /* EBFTreeUnarchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DCF4901D1293D200ECDA97 /* EBFTreeUnarchiver.m */; };
+		B7DCF49A1D1293D200ECDA97 /* UIColor+NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DCF4921D1293D200ECDA97 /* UIColor+NSString.m */; };
+		B7DCF49B1D1293D200ECDA97 /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DCF4951D1293D200ECDA97 /* File.m */; };
+		B7DCF49C1D1293D200ECDA97 /* Folder.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DCF4971D1293D200ECDA97 /* Folder.m */; };
+		B7DCF49E1D1296C900ECDA97 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = B7DCF49D1D1296C900ECDA97 /* Data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +27,27 @@
 		B7DCF46A1D128F1500ECDA97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B7DCF46C1D128F1500ECDA97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B7DCF46D1D128F1500ECDA97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B7DCF46F1D128F1500ECDA97 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		B7DCF4701D128F1500ECDA97 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		B7DCF4721D128F1500ECDA97 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		B7DCF4731D128F1500ECDA97 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		B7DCF4761D128F1600ECDA97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7DCF4781D128F1600ECDA97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7DCF47B1D128F1600ECDA97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7DCF47D1D128F1600ECDA97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7DCF4841D128FF300ECDA97 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B7DCF4851D128FF300ECDA97 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B7DCF4861D128FF300ECDA97 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		B7DCF4871D128FF300ECDA97 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		B7DCF48B1D1293D200ECDA97 /* EBFArchiveKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBFArchiveKit.h; sourceTree = "<group>"; };
+		B7DCF48C1D1293D200ECDA97 /* EBFJSONUnarchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBFJSONUnarchiver.h; sourceTree = "<group>"; };
+		B7DCF48D1D1293D200ECDA97 /* EBFJSONUnarchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBFJSONUnarchiver.m; sourceTree = "<group>"; };
+		B7DCF48E1D1293D200ECDA97 /* EBFTreeCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBFTreeCoding.h; sourceTree = "<group>"; };
+		B7DCF48F1D1293D200ECDA97 /* EBFTreeUnarchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBFTreeUnarchiver.h; sourceTree = "<group>"; };
+		B7DCF4901D1293D200ECDA97 /* EBFTreeUnarchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBFTreeUnarchiver.m; sourceTree = "<group>"; };
+		B7DCF4911D1293D200ECDA97 /* UIColor+NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NSString.h"; sourceTree = "<group>"; };
+		B7DCF4921D1293D200ECDA97 /* UIColor+NSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NSString.m"; sourceTree = "<group>"; };
+		B7DCF4941D1293D200ECDA97 /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+		B7DCF4951D1293D200ECDA97 /* File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = File.m; sourceTree = "<group>"; };
+		B7DCF4961D1293D200ECDA97 /* Folder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Folder.h; sourceTree = "<group>"; };
+		B7DCF4971D1293D200ECDA97 /* Folder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Folder.m; sourceTree = "<group>"; };
+		B7DCF49D1D1296C900ECDA97 /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +82,12 @@
 			children = (
 				B7DCF46C1D128F1500ECDA97 /* AppDelegate.h */,
 				B7DCF46D1D128F1500ECDA97 /* AppDelegate.m */,
-				B7DCF46F1D128F1500ECDA97 /* MasterViewController.h */,
-				B7DCF4701D128F1500ECDA97 /* MasterViewController.m */,
-				B7DCF4721D128F1500ECDA97 /* DetailViewController.h */,
-				B7DCF4731D128F1500ECDA97 /* DetailViewController.m */,
 				B7DCF4751D128F1600ECDA97 /* Main.storyboard */,
+				B7DCF48A1D1293D200ECDA97 /* EBFArchiveKit */,
+				B7DCF4831D128FF300ECDA97 /* ViewControllers */,
+				B7DCF4931D1293D200ECDA97 /* Model */,
 				B7DCF4781D128F1600ECDA97 /* Assets.xcassets */,
+				B7DCF49D1D1296C900ECDA97 /* Data.json */,
 				B7DCF47A1D128F1600ECDA97 /* LaunchScreen.storyboard */,
 				B7DCF47D1D128F1600ECDA97 /* Info.plist */,
 				B7DCF4691D128F1500ECDA97 /* Supporting Files */,
@@ -82,6 +101,43 @@
 				B7DCF46A1D128F1500ECDA97 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7DCF4831D128FF300ECDA97 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCF4861D128FF300ECDA97 /* MasterViewController.h */,
+				B7DCF4871D128FF300ECDA97 /* MasterViewController.m */,
+				B7DCF4841D128FF300ECDA97 /* DetailViewController.h */,
+				B7DCF4851D128FF300ECDA97 /* DetailViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B7DCF48A1D1293D200ECDA97 /* EBFArchiveKit */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCF48B1D1293D200ECDA97 /* EBFArchiveKit.h */,
+				B7DCF48C1D1293D200ECDA97 /* EBFJSONUnarchiver.h */,
+				B7DCF48D1D1293D200ECDA97 /* EBFJSONUnarchiver.m */,
+				B7DCF48E1D1293D200ECDA97 /* EBFTreeCoding.h */,
+				B7DCF48F1D1293D200ECDA97 /* EBFTreeUnarchiver.h */,
+				B7DCF4901D1293D200ECDA97 /* EBFTreeUnarchiver.m */,
+				B7DCF4911D1293D200ECDA97 /* UIColor+NSString.h */,
+				B7DCF4921D1293D200ECDA97 /* UIColor+NSString.m */,
+			);
+			path = EBFArchiveKit;
+			sourceTree = "<group>";
+		};
+		B7DCF4931D1293D200ECDA97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCF4941D1293D200ECDA97 /* File.h */,
+				B7DCF4951D1293D200ECDA97 /* File.m */,
+				B7DCF4961D1293D200ECDA97 /* Folder.h */,
+				B7DCF4971D1293D200ECDA97 /* Folder.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +200,7 @@
 				B7DCF47C1D128F1600ECDA97 /* LaunchScreen.storyboard in Resources */,
 				B7DCF4791D128F1600ECDA97 /* Assets.xcassets in Resources */,
 				B7DCF4771D128F1600ECDA97 /* Main.storyboard in Resources */,
+				B7DCF49E1D1296C900ECDA97 /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,10 +211,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7DCF4991D1293D200ECDA97 /* EBFTreeUnarchiver.m in Sources */,
+				B7DCF49B1D1293D200ECDA97 /* File.m in Sources */,
+				B7DCF49A1D1293D200ECDA97 /* UIColor+NSString.m in Sources */,
+				B7DCF4981D1293D200ECDA97 /* EBFJSONUnarchiver.m in Sources */,
+				B7DCF4891D128FF300ECDA97 /* MasterViewController.m in Sources */,
 				B7DCF46E1D128F1500ECDA97 /* AppDelegate.m in Sources */,
-				B7DCF4711D128F1500ECDA97 /* MasterViewController.m in Sources */,
 				B7DCF46B1D128F1500ECDA97 /* main.m in Sources */,
-				B7DCF4741D128F1500ECDA97 /* DetailViewController.m in Sources */,
+				B7DCF49C1D1293D200ECDA97 /* Folder.m in Sources */,
+				B7DCF4881D128FF300ECDA97 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

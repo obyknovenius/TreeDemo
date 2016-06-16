@@ -8,12 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@class DetailViewController;
+@class Folder;
 
 @interface MasterViewController : UITableViewController
 
-@property (strong, nonatomic) DetailViewController *detailViewController;
-
+@property (nonatomic) Folder *folder;
 
 @end
 
